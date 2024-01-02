@@ -189,3 +189,66 @@ body {
 .services .content .card p {
   font-weight: 300;
 }
+
+/* Our Clients Section */
+.our-clients {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.our-clients .content {
+  padding: 1.4rem 7%;
+  display: flex;
+}
+
+.our-clients .content .text-wrapper {
+  max-width: 50%;
+  padding: 3rem;
+}
+
+.our-clients .content .text-wrapper h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.our-clients .content .text-wrapper h2 {
+  font-size: 2.6em;
+  font-weight: 100;
+}
+
+.our-clients .content .text-wrapper h2 span {
+  font-weight: normal;
+  color: var(--primary);
+}
+
+.our-clients .content .testimony-card {
+  max-width: 50%;
+  padding: 3rem;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  position: relative;
+  text-align: center;
+}
+
+.testimony-card img {
+  width: 25%;
+  position: absolute;
+  top: -25%;
+  left: 37.5%;
+  border-radius: 50%;
+}
+
+.testimony-card h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.testimony-card .project {
+  font-size: 0.8rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
