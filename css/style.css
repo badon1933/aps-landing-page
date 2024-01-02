@@ -155,3 +155,37 @@ body {
   padding: 1.4rem 7%;
   max-width: 40rem;
 }
+
+/* Services Section */
+.services {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.services .content {
+  padding: 1.4rem 7%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services .content .card {
+  flex: 1 1 30%;
+  max-width: 30%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.services .content .card .card-icon {
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+.services .content .card h2 {
+  font-weight: normal;
+}
+
+.services .content .card p {
+  font-weight: 300;
+}
