@@ -252,3 +252,59 @@ body {
   color: var(--primary);
   margin-bottom: 1rem;
 }
+
+/* Projects Section */
+.projects {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.projects .content {
+  padding: 1.4rem 7%;
+}
+
+.projects .content h2 {
+  text-align: center;
+  font-size: 2.6em;
+  font-weight: normal;
+}
+
+.projects .content p {
+  text-align: center;
+}
+
+.projects .content .gallery {
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.gallery .project {
+  max-width: 33%;
+  position: relative;
+}
+
+.gallery .project img {
+  width: 100%;
+}
+
+.gallery .project .text-hover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #fefefe;
+}
+
+.project:hover .text-hover {
+  opacity: 0.8;
+}
