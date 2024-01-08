@@ -308,3 +308,31 @@ body {
 .project:hover .text-hover {
   opacity: 0.8;
 }
+
+/* Contact Section */
+.contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .content {
+  padding: 1.4rem 7%;
+  text-align: center;
+}
+
+.contact .content h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.contact .content h2 span {
+  font-weight: normal;
+  color: var(--primary);
+}
+
+.contact .content .whatsapp {
+  display: block;
+  padding: 1rem 1rem;
+}
